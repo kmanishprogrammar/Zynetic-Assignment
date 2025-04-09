@@ -1,0 +1,57 @@
+/* Light Theme */
+body.light {
+  --bg-color: #ffffff;
+  --text-color: #1e1e1e;
+  --link-color: #007bff;
+  --button-bg: #f0f0f0;
+  --button-text: #1e1e1e;
+}
+
+/* Dark Theme */
+body.dark {
+  --bg-color: #17029d7b;
+  --text-color: #ffffff;
+  --link-color: #4da6ff;
+  --button-bg: #333333;
+  --button-text: #ffffff;
+}
+
+/* Global Styles */
+body {
+  background-color: var(--bg-color, #ffffff); /* Fallback to white */
+  color: var(--text-color, #1e1e1e); /* Fallback to black */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: Arial, sans-serif;
+}
+
+#root, .app {
+  background-color: var(--bg-color, #ffffff);
+  color: var(--text-color, #1e1e1e);
+  min-height: 100vh;
+}
+
+/* Links */
+a {
+  color: var(--link-color, #007bff);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+button {
+  background-color: var(--button-bg, #f0f0f0);
+  color: var(--button-text, #1e1e1e);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}

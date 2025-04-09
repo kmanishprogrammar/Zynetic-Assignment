@@ -1,0 +1,7 @@
+@use '@/styles/mixins' as *;
+@use '@/styles/variables' as *;
+
+.content {
+  max-width: toRem($maxWidthApp);
+  margin: toRem(64) auto;
+}
