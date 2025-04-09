@@ -63,7 +63,7 @@ This project was developed and submitted within **12 hours** as part of an assig
 
 ### 1. Clone the repo
 
-git clone https://github.com/kmanishprogrammar/Zynetic-Coding-Assignment.git
+git clone https://github.com/kmanishprogrammar/Zynetic-Assignment.git
 cd WEATHER-APP-REACT
 
 
